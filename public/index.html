@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Booking Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+        h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        .status {
+            background: #00c853;
+            padding: 8px 25px;
+            border-radius: 50px;
+            display: inline-block;
+            font-weight: bold;
+        }
+        .endpoint { padding: 5px 0; }
+        a { color: white; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Travel Booking Platform</h1>
+        <div class="status">✅ Online</div>
+        <p style="margin-top: 15px;">White-label bus booking solution</p>
+        <div style="margin-top: 20px;">
+            <div class="endpoint">📡 <a href="/health">/health</a></div>
+            <div class="endpoint">📡 <a href="/api">/api</a></div>
+            <div class="endpoint">📡 <a href="/api/test">/api/test</a></div>
+        </div>
+    </div>
+</body>
+</html>
